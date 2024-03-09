@@ -1,0 +1,6 @@
+9 marca 2024
+Rozpoczęcie pracy nad kalkulatorem. Dodano:
+- pola input z opisem (label)
+- cztery podstawowe przyciski - dodawanie, odejmowanie, mnożenie, dzielenie
+- dodano funkcję dodawania
+- dodano pierwszy styl css
