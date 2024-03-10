@@ -4,3 +4,8 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 - cztery podstawowe przyciski - dodawanie, odejmowanie, mnożenie, dzielenie
 - dodano funkcję dodawania
 - dodano pierwszy styl css
+
+
+10 marca 2024
+- zmieniono sposób dodawania i odejmowania
+- dodano przyciski z cyframi
