@@ -5,7 +5,12 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 - dodano funkcję dodawania
 - dodano pierwszy styl css
 
-
 10 marca 2024
 - zmieniono sposób dodawania i odejmowania
 - dodano przyciski z cyframi
+
+11 marca 2024
+- dodano pozostałe liczby do przycisków
+
+13 marca 2024
+- utworzono nowy sposób zliczania
