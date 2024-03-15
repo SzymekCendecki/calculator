@@ -14,3 +14,6 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 
 13 marca 2024
 - utworzono nowy sposób zliczania
+
+15 marca 2024
+- dodano funkcje dla odejmowania, mnożenie, dzielenia oraz usuwania z danych z tablicy
