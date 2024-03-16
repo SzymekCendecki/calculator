@@ -63,8 +63,9 @@ document.querySelector("#plus").addEventListener("click", ()=>{
   tab.push(x)
 
 
-  let sum = tab.reduce((accu, value) => accu / value); 
-  document.querySelector("#result").innerHTML = sum;
+  let sum = tab.reduce((accu, value) => accu + value); 
+  let xxx = sum/3;
+  document.querySelector("#result").innerHTML = xxx;
   console.log(tab)
  })
 
@@ -78,6 +79,8 @@ document.querySelector("#plus").addEventListener("click", ()=>{
 
  document.querySelector("#delete").addEventListener("click", ()=>{
     tab.splice(0)
+    document.querySelector("#result").innerHTML = 0;
+    console.log(tab)
  })
 
 
