@@ -21,3 +21,6 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 16 marca 2024
 - poprawiono funkcję czyszczenia wyników
 - poprawiono plik package.json i package-lock.json
+
+17 marca 2024
+- modyfikacja kodu znalezionego w sieci. link do kodu źródłowego: https://www.tutorialstonight.com/javascript-calculator
