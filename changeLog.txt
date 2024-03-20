@@ -26,4 +26,7 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 - modyfikacja kodu znalezionego w sieci. link do kodu źródłowego: https://www.tutorialstonight.com/javascript-calculator
 
 18 marca 2024
-- dodano "czyszczenie" liczbzb i wyników
+- dodano "czyszczenie" liczb i wyników
+
+20 marca 2024
+- dodano funkcje do przycisków

@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", ()=>{ \r\n    console.log(\"DOM fully loaded and parsed!\")\r\n\r\n  \r\n      // clear one\r\n      function pressClear() {\r\n        outputLower.innerHTML = outputLower.innerHTML.slice(0, -1);\r\n      }\r\n\r\n     document.querySelector(\"#allClear\").addEventListener(\"click\", ()=>{\r\n        document.querySelector('#upper').innerHTML = '';\r\n        document.querySelector('#lower').innerHTML = '0';\r\n     })\r\n\r\n\r\n     document.querySelector(\"#clear\").addEventListener(\"click\", ()=>{\r\n        document.querySelector('#lower').innerHTML = document.querySelector('#lower').innerHTML.slice(0, -1);\r\n     })\r\n\r\n})\r\n\n\n//# sourceURL=webpack://calculator/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", ()=>{ \r\n    console.log(\"DOM fully loaded and parsed!\")\r\n       \r\n\r\n})\r\n\n\n//# sourceURL=webpack://calculator/./src/index.js?");
 
 /***/ })
 
