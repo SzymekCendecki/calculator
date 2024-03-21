@@ -19,7 +19,6 @@
 
 	<div id="main">
 		<div id="calc">
-			<div id="upper" class="output"></div>
 			<div id="lower" class="output">0</div>
 		</div>
 		<div class="input">
@@ -50,8 +49,7 @@
 
 	</footer>
 	<script>
-		// upper output is for showing the expression
-		let outputUpper = document.querySelector('#upper');
+
     // lower output is for showing the result
     let outputLower = document.querySelector('#lower');
 
@@ -66,7 +64,6 @@
 
     // clear all
     function pressAllClear() {
-      outputUpper.innerHTML = '';
       outputLower.innerHTML = '0';
     }
 
@@ -78,7 +75,6 @@
     // calculate button
     function pressEqual() {
       let exp = outputLower.innerHTML;
-      outputUpper.innerHTML = exp;
       exp = exp.replace(/×/g, '*').replace(/÷/g, '/');
       let result;
       try {

@@ -30,3 +30,6 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 
 20 marca 2024
 - dodano funkcje do przycisków
+
+21 marca 2024 
+- drobnr poprawki css oraz js
