@@ -6,49 +6,50 @@
 	<meta name="keywords" content="">
 	<meta name="robots" content="index, follow, noodp, noydir">
 	<meta name="viewport" content="initial-scale=1">
-    <meta charset="utf-8" />
+  <meta charset="utf-8" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Calculator</title>        
+  <title>Calculator</title>        
 <script defer src="main.js"></script></head>
 <body>
 	<header>
-		<h1>
-			KALKULATOR
-		</h1>
+		<h1>KALKULATOR</h1>
 	</header>
 
 	<div id="main">
+
 		<div id="calc">
 			<div id="lower" class="output">0</div>
 		</div>
+
 		<div class="input">
 			<button onclick="pressAllClear()">AC</button>
-        	<button onclick="pressNum(this)">0</button>
-        	<button onclick="pressClear()"><i class="fas fa-backspace"></i></button>
-        	<button onclick="pressOperator(this)">+</button>
-       		<button onclick="pressNum(this)">1</button>
-        	<button onclick="pressNum(this)">2</button>
-        	<button onclick="pressNum(this)">3</button>
-        	<button onclick="pressOperator(this)">-</button>
-        	<button onclick="pressNum(this)">4</button>
-       		<button onclick="pressNum(this)">5</button>
-       		<button onclick="pressNum(this)">6</button>
-        	<button onclick="pressOperator(this)">&times;</button>
-        	<button onclick="pressNum(this)">7</button>
-        	<button onclick="pressNum(this)">8</button>
-        	<button onclick="pressNum(this)">9</button>
-        	<button onclick="pressOperator(this)">&div;</button>
-        	<button onclick="pressDot()">.</button>
-        	<button onclick="pressBracket(this)">(</button>
-        	<button onclick="pressBracket(this)">)</button>
-        	<button onclick="pressEqual()">=</button>
-		  </div>
+     	<button onclick="pressNum(this)">0</button>
+     	<button onclick="pressClear()"><i class="fas fa-backspace"></i></button>
+     	<button onclick="pressOperator(this)">+</button>
+   		<button onclick="pressNum(this)">1</button>
+     	<button onclick="pressNum(this)">2</button>
+     	<button onclick="pressNum(this)">3</button>
+     	<button onclick="pressOperator(this)">-</button>
+     	<button onclick="pressNum(this)">4</button>
+   		<button onclick="pressNum(this)">5</button>
+   		<button onclick="pressNum(this)">6</button>
+     	<button onclick="pressOperator(this)">&times;</button>
+     	<button onclick="pressNum(this)">7</button>
+     	<button onclick="pressNum(this)">8</button>
+     	<button onclick="pressNum(this)">9</button>
+     	<button onclick="pressOperator(this)">&div;</button>
+     	<button onclick="pressDot()">.</button>
+     	<button onclick="pressBracket(this)">(</button>
+     	<button onclick="pressBracket(this)">)</button>
+     	<button onclick="pressEqual()">=</button>
+	  </div>
+
 	</div>
 
 	<footer>
-
 	</footer>
-	<script>
+
+<script>
 
     // lower output is for showing the result
     let outputLower = document.querySelector('#lower');

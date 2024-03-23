@@ -7,25 +7,20 @@
 html,body{
     width:100%;
     height: 100%;
+    background-color: rgb(46, 150, 62);
 }
 
+header, footer{
+    display: block;
+}
 
-header{
-    width: 100%;
-    height: 10%;
-    background-color: rgb(82, 85, 233);
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+h1{
+    text-align: centery;
 }
 
 #main{
     width: 100%;
-    height: 80%;
-    background-color: rgb(46, 150, 62);
+    height: 100%; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -73,9 +68,38 @@ header{
     font-size: 1.6em;
   }
 
+@media (min-width: 768px) {
+    header, footer{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(82, 85, 233);
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
-footer{
-    width: 100%;
-    height: 10%;
-    background-color: rgb(82, 85, 233);
+    #main{
+        width: 75%;
+        height: 80%;
+        margin: 0 auto;
+    }
+
+    button{
+        width: 25%;
+        height: 20%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #calc{
+        height: 23%;
+    }
+
+    button{
+        width: 19.5%;
+        height: 24%;
+    }
 }
