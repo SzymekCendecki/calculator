@@ -36,3 +36,8 @@ Rozpoczęcie pracy nad kalkulatorem. Dodano:
 
 23 marca 2024
 - dodano responsywność
+
+24 marca 2024
+- poprawiono css
+- usunięto header oraz footer
+- poprawiono plik README.md
